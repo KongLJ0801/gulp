@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    var array = []
+    for (var index = 0; index < array.length; index++) {
+        var element = array[index];
+        console.log('element', element);
+    }
+    console.log('login', 123);
+    var btn = document.getElementById('btn')
+    var input = document.getElementById('input')
+    var val = document.getElementById('val')
+    btn.onclick = function () {
+        val.value = input.value
+    }
+    console.log(btn, input, val);
+</script>

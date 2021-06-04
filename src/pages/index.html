@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @-@include('./head.html',{title:'首页'})
+</head>
+
+<body>
+    <!-- 导入html 文件使用  自定义标识符include('要导入(打包后的)文件路径') 文件路径根据basepath 以后开始书写 -->
+    <!--  第二个参数 是JSON格式的对象 模板使用 自定义标识符title(变量)   -->
+    @-@include('./header.html',{title:'首页',show:'active'})
+    <h1 class="">gulp</h1>
+    <h3>watch</h3>
+    <input type="text" class="a b" name="" id="" checked="checked">
+    @-@include('./footer.html')
+
+</body>
+
+</html>
